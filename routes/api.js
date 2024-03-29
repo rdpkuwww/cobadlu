@@ -152,10 +152,7 @@ router.get('/download/mediafire', async(req, res, next) => {
                  status : true,
                  result
              })
-         })
-         .catch(e => {
-         	res.json(loghandler.error)
-})
+         })         
 });
 router.get('/downloader/xnxx', async(req, res, next) => {
   const apikey = req.query.apikey;
